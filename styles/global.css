@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap');
+
+:root {
+    --c14: #620606;
+    --c13: #066209;
+    --c12: #000000;
+    --c11: #111111;
+    --c10: #2E2E2E;
+    --c9: #404040;
+    --c8: #595959;
+    --c7: #717171;
+    --c6: #9C9C9C;
+    --c5: #B2B2B2;
+    --c4: #CCCCCC;
+    --c3: #DEDEDE;
+    --c2: #EDEDED;
+    --c1: #F7F7F7;
+    --w: #FFFFFF;
+    --p5: #332200;
+    --p4: #664400;
+    --p3: #A66F00;
+    --p2: #E4A30B;
+    --p1: #FFBB00;
+    --bg-p-gradient: linear-gradient(to bottom, #FFBF00, #F2A50C);
+    --bg-p-gradient-houver: linear-gradient(to bottom, #fdd869, #e7ba61);
+    --max-width: 1200px;
+    --shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+ul {
+    list-style: none;
+}
+
+.poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+.review-font {
+    font-family: "DM Serif Text", serif;
+}
+
+.content {
+    max-width: var(--max-width);
+    margin: auto;
+}
+
+.title-1-c1, .title-1-c11 {
+    color: var(--w);
+    font-size: 4em;
+    line-height: 1.125;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.title-1-c11 {
+    color: var(--c11);
+}
+
+.title-1-c1 span, .title-1-c11 span {
+    color: var(--p1);
+}
+
+.text-1 {
+    color: var(--c6);
+    font-size: 1.5em;
+    line-height: 1.5;
+    max-width: 40ch;
+}
+
+.title-2-c5 {
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    color: var(--c5);
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.33;
+}
+
+@media(max-width: 600px) {
+    .title-1-c1, .title-1-c11 {
+        display: inline-block;
+        font-size: 2.5em;
+    }
+
+    .title-2-c5 {
+        font-size: 1.0em !important;
+    }
+}
+
+@media(max-width: 600px) {
+    .text-1 {
+        font-size: 1.15em !important;
+    }
+    
+    .p-responsive {
+        font-size: 1.2em !important;
+    }
+}
